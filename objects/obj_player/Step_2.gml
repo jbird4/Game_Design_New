@@ -1,4 +1,4 @@
-var interaction_radius = 32; 
+var interaction_radius = 90; 
 
 var _npc = instance_nearest(x, y, obj_NPC_Parent);
 

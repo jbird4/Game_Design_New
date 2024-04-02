@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"defaultDialogue","filters":[],"listItems":[],"multiselect":false,"name":"defaultDialogue","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.dialogue.jack_meet","varType":4,},
+    {"$GMObjectProperty":"","%Name":"defaultDialogue","filters":[],"listItems":[],"multiselect":false,"name":"defaultDialogue","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.dialogue.Elena_meet","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

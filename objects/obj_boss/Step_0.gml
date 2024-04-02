@@ -14,6 +14,18 @@ if (_distance > 5) { // Prevents the boss from getting too close
 // Update stage based on health
 if (boss_health <= 50) stage = 2;
 
+if (boss_health <= 0) {
+    // Create the instrument at the boss's location
+    instance_create_layer(x, y, "Instances", obj_strings);
+    
+    // Finally, destroy the boss object
+    instance_destroy();
+	
+	if(instance_exists(obj_boss_minion)){
+		instance_destroy(obj_boss_minion);
+	}
+}
+
 // Decrease cooldowns
 attackCooldown -= 1;
 noteVulnerabilityCooldown -= 1;
@@ -64,13 +76,6 @@ if(!isVulnerable){
 	}
 }
 
-if (health <= 0) {
-    // Create the instrument at the boss's location
-    instance_create_layer(x, y, "Instances", obj_strings);
-    
-    // Finally, destroy the boss object
-    instance_destroy();
-}
 
 
 

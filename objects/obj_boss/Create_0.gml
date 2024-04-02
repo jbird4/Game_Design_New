@@ -1,7 +1,7 @@
 // Initialize boss properties
 stage = 1;
-boss_health = 100;
-maxHealth = 100; // Max health for calculating percentages
+boss_health = 10;
+maxHealth = 10; // Max health for calculating percentages
 isVulnerable = false;
 moveSpeed = 1;
 attackCooldown = room_speed * 2; // Cooldown in steps before attacking again

@@ -1,4 +1,4 @@
-target_x = 10;
-target_y = 39;
+target_x = 127;
+target_y = 191;
 target_rm = House2;
-target_face = RIGHT;
+target_face = UP;

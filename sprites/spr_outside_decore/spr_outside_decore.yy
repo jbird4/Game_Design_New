@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_outside_decore",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":31,
   "bbox_left":0,
-  "bbox_right":31,
+  "bbox_right":59,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,8 +14,8 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"0a5d10d8-1e1c-4d8b-85c7-52f8035b9975","name":"0a5d10d8-1e1c-4d8b-85c7-52f8035b9975","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
+  "gridX":16,
+  "gridY":16,
   "height":64,
   "HTile":false,
   "layers":[
