@@ -42,15 +42,15 @@ if accept_key{
 				menu_level = 2; break;
 				
 			
-				//brightness
+				//music
 				case 1:
-			
-				break;
+				menu_level = 3; break;
+				
 			
 				//controls
 				case 2:
-			
-				break;
+				menu_level = 4; break;
+				
 			
 				//back
 				case 3:
@@ -80,6 +80,70 @@ if accept_key{
 			
 				//back
 				case 3:
+				menu_level = 1;
+				break;
+			}
+		break;
+		
+		
+		//music toggle
+		case 3:
+			switch(pos){
+				//On
+				case 0:
+				audio_master_gain(1);
+				break;
+			
+				//off
+				case 1:
+				audio_master_gain(0);
+				break;
+	
+			
+				//back
+				case 2:
+				menu_level = 1;
+				break;
+			}
+		break;
+		
+		//music toggle
+		case 4:
+			switch(pos){
+				//W
+				case 0:
+				
+				break;
+			
+				//A
+				case 1:
+				
+				break;
+				
+				//S
+				case 2:
+				
+				break;
+			
+				//D
+				case 3:
+				
+				break;
+				
+				
+				//Space
+				case 4:
+				
+				break;
+			
+				//E
+				case 5:
+				
+				break;
+	
+			
+				//back
+				case 6:
 				menu_level = 1;
 				break;
 			}
