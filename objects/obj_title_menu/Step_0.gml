@@ -39,8 +39,8 @@ if accept_key{
 			switch(pos){
 				//window size
 				case 0:
-			
-				break;
+				menu_level = 2; break;
+				
 			
 				//brightness
 				case 1:
@@ -55,6 +55,32 @@ if accept_key{
 				//back
 				case 3:
 				menu_level = 0;
+				break;
+			}
+		break;
+		
+		
+		//window size
+		case 2:
+			switch(pos){
+				//800x600
+				case 0:
+				window_set_size(800, 600);
+				break;
+			
+				//1024x768
+				case 1:
+				window_set_size(1024, 768);
+				break;
+			
+				//1920x1080
+				case 2:
+				window_set_size(1920, 1080);
+				break;
+			
+				//back
+				case 3:
+				menu_level = 1;
 				break;
 			}
 		break;

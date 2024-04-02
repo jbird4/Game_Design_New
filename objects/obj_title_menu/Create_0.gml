@@ -17,6 +17,12 @@ option[1,1] = "Brightness";
 option[1,2] = "Controls";
 option[1,3] = "Back";
 
+//window size menu
+option[2,0] = "800x600";
+option[2,1] = "1024x768";
+option[2,2] = "1920x1080";
+option[2,3] = "Back";
+
 
 op_length = 0;
 
