@@ -96,9 +96,7 @@ if accept_key{
 				//back
 				case 3:
 				menu_level = 1;
-				with (obj_title_text) { //making title invisible
-		        visible = true;
-		    }
+				
 				break;
 			}
 		break;
@@ -121,9 +119,7 @@ if accept_key{
 				//back
 				case 2:
 				menu_level = 1;
-				with (obj_title_text) { //making title invisible
-		        visible = true;
-		    }
+				
 				break;
 			}
 		break;
@@ -166,9 +162,7 @@ if accept_key{
 				//back
 				case 6:
 				menu_level = 1;
-				with (obj_title_text) { //making title invisible
-		        visible = true;
-				}
+				
 				break;
 			}
 		break;
