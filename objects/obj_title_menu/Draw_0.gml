@@ -18,7 +18,7 @@ y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0])/2
 
 
 //draw the menu background
-draw_sprite_ext(sprite_index, image_index, x, y, width/sprite_width, height/sprite_height, 0, c_white, 1);
+draw_sprite_ext(sprite_index, image_index, x, y, width/sprite_width, height/sprite_height, 0, c_red, 1);
 
 //draw the options
 draw_set_font(global.font_main);

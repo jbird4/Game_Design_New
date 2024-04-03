@@ -17,6 +17,8 @@ if (boss_health <= 50) stage = 2;
 if (boss_health <= 0) {
     // Create the instrument at the boss's location
     instance_create_layer(x, y, "Instances", obj_strings);
+	
+	global.bossOneDead = true;
     
     // Finally, destroy the boss object
     instance_destroy();

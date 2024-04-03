@@ -4,6 +4,8 @@ yspd = 0;
 
 move_spd = 2;
 
+isDead = false;
+
 maxHealth = 100;
 player_health = maxHealth;
 
