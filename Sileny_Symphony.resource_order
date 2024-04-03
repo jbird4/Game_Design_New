@@ -54,11 +54,8 @@
     {"name":"obj_warp_block","order":2,"path":"objects/obj_warp_block/obj_warp_block.yy",},
     {"name":"obj_water","order":14,"path":"objects/obj_water/obj_water.yy",},
     {"name":"obj_weapon_wheel","order":7,"path":"objects/obj_weapon_wheel/obj_weapon_wheel.yy",},
-<<<<<<< HEAD
     {"name":"obj_death","order":19,"path":"objects/obj_death/obj_death.yy",},
-=======
     {"name":"obj_title_text","order":5,"path":"objects/obj_title_text/obj_title_text.yy",},
->>>>>>> 98c1c30c0a7a025f9c06a1892c2d88b1b1e9f8a7
     {"name":"odj_music_manager","order":5,"path":"objects/odj_music_manager/odj_music_manager.yy",},
     {"name":"House1","order":4,"path":"rooms/House1/House1.yy",},
     {"name":"House2","order":5,"path":"rooms/House2/House2.yy",},
@@ -68,7 +65,6 @@
     {"name":"rm_init","order":3,"path":"rooms/rm_init/rm_init.yy",},
     {"name":"rm_outside","order":2,"path":"rooms/rm_outside/rm_outside.yy",},
     {"name":"rm_respawn","order":8,"path":"rooms/rm_respawn/rm_respawn.yy",},
-    {"name":"rm_title_screen","order":1,"path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"scr_dialogue_data","order":4,"path":"scripts/scr_dialogue_data/scr_dialogue_data.yy",},
     {"name":"scr_music_function","order":1,"path":"scripts/scr_music_function/scr_music_function.yy",},
     {"name":"scr_textbox_functions","order":3,"path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},
@@ -118,10 +114,7 @@
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_warp_block","order":15,"path":"sprites/spr_warp_block/spr_warp_block.yy",},
     {"name":"spr_weapon_wheel","order":20,"path":"sprites/spr_weapon_wheel/spr_weapon_wheel.yy",},
-<<<<<<< HEAD
     {"name":"Sprite48","order":42,"path":"sprites/Sprite48/Sprite48.yy",},
-=======
->>>>>>> 98c1c30c0a7a025f9c06a1892c2d88b1b1e9f8a7
     {"name":"TileSet7","order":7,"path":"tilesets/TileSet7/TileSet7.yy",},
     {"name":"ts_decore_tiles","order":1,"path":"tilesets/ts_decore_tiles/ts_decore_tiles.yy",},
     {"name":"ts_decore","order":5,"path":"tilesets/ts_decore/ts_decore.yy",},
