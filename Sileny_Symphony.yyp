@@ -86,7 +86,11 @@
     {"id":{"name":"obj_warp_block","path":"objects/obj_warp_block/obj_warp_block.yy",},},
     {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},},
     {"id":{"name":"obj_weapon_wheel","path":"objects/obj_weapon_wheel/obj_weapon_wheel.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"obj_death","path":"objects/obj_death/obj_death.yy",},},
+=======
+    {"id":{"name":"obj_title_text","path":"objects/obj_title_text/obj_title_text.yy",},},
+>>>>>>> 98c1c30c0a7a025f9c06a1892c2d88b1b1e9f8a7
     {"id":{"name":"odj_music_manager","path":"objects/odj_music_manager/odj_music_manager.yy",},},
     {"id":{"name":"House1","path":"rooms/House1/House1.yy",},},
     {"id":{"name":"House2","path":"rooms/House2/House2.yy",},},
@@ -154,7 +158,10 @@
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_warp_block","path":"sprites/spr_warp_block/spr_warp_block.yy",},},
     {"id":{"name":"spr_weapon_wheel","path":"sprites/spr_weapon_wheel/spr_weapon_wheel.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"Sprite48","path":"sprites/Sprite48/Sprite48.yy",},},
+=======
+>>>>>>> 98c1c30c0a7a025f9c06a1892c2d88b1b1e9f8a7
     {"id":{"name":"TileSet7","path":"tilesets/TileSet7/TileSet7.yy",},},
     {"id":{"name":"ts_decore_tiles","path":"tilesets/ts_decore_tiles/ts_decore_tiles.yy",},},
     {"id":{"name":"ts_decore","path":"tilesets/ts_decore/ts_decore.yy",},},

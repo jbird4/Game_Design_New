@@ -26,9 +26,20 @@ if accept_key{
 		case 0:
 			switch(pos){
 			//start game
-			case 0: room_goto_next(); break;
+			case 0: room_goto_next();
+			with (obj_title_text) { //making title invisible
+		        visible = false;
+		    }
+			
+			break;
 			//settings
-			case 1: menu_level = 1; break;
+			case 1: menu_level = 1; 
+			with (obj_title_text) { //making title invisible
+		        visible = false;
+		    }
+			
+			
+			break;
 			//quit game
 			case 2: game_end(); break;
 				}
@@ -36,6 +47,7 @@ if accept_key{
 	
 		//settings menu
 		case 1:
+				
 			switch(pos){
 				//window size
 				case 0:
@@ -55,6 +67,9 @@ if accept_key{
 				//back
 				case 3:
 				menu_level = 0;
+				with (obj_title_text) { //making title invisible
+		        visible = true;
+		    }
 				break;
 			}
 		break;
@@ -81,6 +96,9 @@ if accept_key{
 				//back
 				case 3:
 				menu_level = 1;
+				with (obj_title_text) { //making title invisible
+		        visible = true;
+		    }
 				break;
 			}
 		break;
@@ -103,6 +121,9 @@ if accept_key{
 				//back
 				case 2:
 				menu_level = 1;
+				with (obj_title_text) { //making title invisible
+		        visible = true;
+		    }
 				break;
 			}
 		break;
@@ -145,6 +166,9 @@ if accept_key{
 				//back
 				case 6:
 				menu_level = 1;
+				with (obj_title_text) { //making title invisible
+		        visible = true;
+				}
 				break;
 			}
 		break;
