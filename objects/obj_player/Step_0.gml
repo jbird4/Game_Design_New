@@ -102,6 +102,7 @@ if (instance_exists(obj_boss) && obj_boss.isVulnerable) {
 if (player_health <= 0 && !isDead) {
 	show_debug_message("Attempting to switch to death room.");
     isDead = true;  // Set the flag to true so this block won't run again
+	visible = false;
     room_goto(rm_respawn);  // Change to the death screen room
 }
 	

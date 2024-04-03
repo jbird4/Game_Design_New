@@ -6,6 +6,8 @@ move_spd = 2;
 
 isDead = false;
 
+visible = true;
+
 maxHealth = 100;
 player_health = maxHealth;
 
